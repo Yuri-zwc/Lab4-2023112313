@@ -35,7 +35,7 @@ public class SolutionTest {
     public void testAllZeros() {
         Solution s = new Solution();
         List<String> result = s.restoreIpAddresses("0000");
-        List<String> expected = Collections.singletonList("0.00.0.0");
+        List<String> expected = Collections.singletonList("0.0.0.0");
         assertEquals(expected, result);
     }
 
